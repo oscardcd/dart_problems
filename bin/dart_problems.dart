@@ -1,7 +1,7 @@
-import 'package:dart_problems/exportfile.dart' ;
+import 'package:dart_problems/exportfile.dart' as importmet ;
 
 void main(List<String> arguments) {
-  optproblems();
+  importmet.optproblems();
 }
 
 
