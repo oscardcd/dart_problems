@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:dart_problems/exportfile.dart';
+import 'package:dart_problems/problem4.dart';
 
 Map<int, String> problems = {
   1: 'validar edad',
@@ -26,6 +27,9 @@ void optproblems() {
       break;
       case 3:
       calculariva();
+      break;
+      case 4:
+      notasEstdiantes();
       break;
     default:
       print('no selecciono una opcion valida\n');
